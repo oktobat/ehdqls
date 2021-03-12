@@ -3,7 +3,7 @@ $.ajax({
     type:'GET',
     url:'../js/pf.json',
     dataType:'json',
-    timeout: 3000,
+    // timeout: 3000,
     beforeSend: function(xhr){
         if(xhr.overrideMimeType) {
             xhr.overrideMimeType('application/json')
