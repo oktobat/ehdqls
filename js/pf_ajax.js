@@ -18,6 +18,13 @@ $.ajax({
     }
 })
 
+$(window).on('load', function(){
+    $('.section8 .pf_contents').masonry({
+        // options...
+        columnWidth: '.pfbox',
+        percentPosition: true,
+    });
+})
 
 // pf - grid
 function masonry(){
